@@ -1,0 +1,24 @@
+{
+    "name": "crud/xernomm",
+    "description": "crud app php test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Crud\\Xernomm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "xernomm",
+            "email": "rafaelrichie03@gmail.com"
+        }
+    ],
+    "scripts": {
+        "server": "php -S localhost:8080"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "bramus/router": "~1.6",
+        "jenssegers/blade": "^2.0"
+    }
+}
