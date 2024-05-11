@@ -12,7 +12,7 @@ $sql = "CREATE TABLE IF NOT EXISTS users (
 $conn->query($sql);
 
 function createUser($username, $email, $password) {
-    global $conn; // Using the $conn variable from connection.php
+    global $conn; 
 
     // Validate input
     if (empty($username) || empty($email) || empty($password)) {
